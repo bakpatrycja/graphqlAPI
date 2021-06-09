@@ -8,8 +8,6 @@ Please remove example from example.env (filename)
 - npm install
 - npm start
 
-Run application. Please edit .env file (remove example)
-
 ### Docker
 - npm install 
 - docker build -t todo-api .
