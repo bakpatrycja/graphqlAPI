@@ -11,12 +11,12 @@ Please remove example from example.env (filename)
 ### Docker
 - npm install 
 - docker build -t todo-api .
-- docker run todo-api
+- docker run -p 4000:4000 --name apollo-server -d todo-api
 
 If container doesn't runs by command please go to Docker application and run container manually.
 
 Query and mutation example
-Go to http://localhost:4000/
+Go to http://localhost:4000/ (should work both when runs by npm start and docker container)
 
 
 ### Record structure
